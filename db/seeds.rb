@@ -3,23 +3,23 @@
 #
 # Example:
 
-# teams = [
-#   'Design',
-#   'Genome',
-#   'Institutions',
-#   'Gallery',
-#   'Editorial',
-#   'Communications',
-#   'Operations',
-#   'Legal',
-#   'Executive',
-#   'Product Operations & Analytics',
-#   'Core Engineering',
-#   'Mobile Engineering',
-#   'Partner Engineering',
-#   'Web Engineering',
-#   'Art Fair Partnerships',
-#   'Subscription Sales',
-#   'Artwork Sales'
-# ]
-# teams.each { |name| Group.create(name: name)}
+ teams = [
+   'Design',
+   'Genome',
+   'Institutions',
+   'Gallery',
+   'Editorial',
+   'Communications',
+   'Operations',
+   'Legal',
+   'Executive',
+   'Product Operations & Analytics',
+   'Core Engineering',
+   'Mobile Engineering',
+   'Partner Engineering',
+   'Web Engineering',
+   'Art Fair Partnerships',
+   'Subscription Sales',
+   'Artwork Sales'
+ ]
+ teams.each { |name| Group.create(name: name)}

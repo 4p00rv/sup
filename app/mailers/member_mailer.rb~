@@ -8,6 +8,6 @@ class MemberMailer < ActionMailer::Base
 
   def registration_confirmation(member)
     @member = member
-    mail(to: @member.email, subject: "Verify Email to be a part of S'UP at #{ENV['COMPANY_NAME']}")
+    mail(to: @member.email, subject: "Verify Email")
   end
 end

@@ -1,0 +1,8 @@
+COMPANY_NAME: "Initech"
+COMPANY_NAME_POSSESSIVE: "Initech's"
+PRODUCTION_DOMAIN: "agile-bayou-3798.herokuapp.com"
+SUP_USER_NAME: "username"
+SUP_PASSWORD_HASH: "$2a$10$yKF3BYd1sbZNvandxGJg4.EsQcYd41UP1FJrs6PwrcA6gJ3rQIA8u"
+SMTP_USER_NAME: "i7cbnlri7394"
+SMTP_PASSWORD: "app43634349@heroku.com"
+SMTP_DOMAIN: "smtp.sendgrid.net"

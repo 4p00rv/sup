@@ -58,12 +58,6 @@ class Member < ActiveRecord::Base
   ###########################################################
   #################Email Confirmation Part###################
   ###########################################################
-  def email_activate
-    self.email_confirmed = true
-    self.confirm_token = nil
-    save!(:validate => false)
-  end
-
   private
   def confirmation_token
       if self.confirm_token.blank?
@@ -71,6 +65,11 @@ class Member < ActiveRecord::Base
       end
   end
 
+  def email_activate
+    self.email_confirmed = true
+    self.confirm_token = nil
+    save!(:validate => false)
+  end
 
 end
 #--
